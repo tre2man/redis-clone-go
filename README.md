@@ -16,8 +16,8 @@ DEL key
 
 ### 기본 빌드 및 실행
 ```shell
-go build -o redisgo build/main.go
-./redisgo
+go build -o redisclonego build/main.go
+./redisclonego
 ```
 
 ### Makefile 사용 (권장)
@@ -41,7 +41,7 @@ make help
 ```
 
 #### 주요 타겟
-- **`build`**: `build/redisgo` 바이너리 파일 생성 (기본 타겟)
+- **`build`**: `build/redisclonego` 바이너리 파일 생성 (기본 타겟)
 - **`run`**: 빌드 후 바이너리 실행
 - **`clean`**: 빌드 파일 및 바이너리 제거
 - **`help`**: 사용 가능한 모든 명령어 표시

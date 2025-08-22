@@ -1,7 +1,7 @@
 # RedisCloneGo Makefile
 
 # 변수 정의
-BINARY_NAME=redisgo
+BINARY_NAME=redisclonego
 BUILD_DIR=build
 MAIN_FILE=main.go
 GO=go
@@ -14,7 +14,7 @@ GOARCH?=$(shell go env GOARCH)
 # 기본 타겟 (make만 실행했을 때)
 all: build
 
-# 빌드 타겟 - README.md에 따라 redisgo 바이너리 생성
+# 빌드 타겟 - README.md에 따라 redisclonego 바이너리 생성
 build:
 	@echo "Building RedisCloneGo..."
 	@mkdir -p $(BUILD_DIR)
